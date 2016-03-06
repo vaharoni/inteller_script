@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require_relative '../app/inteller'
+
+ActiveRecord::Base.logger = Logger.new(STDOUT)
+
+require "pry"
+Pry.start
+
+# require "irb"
+# IRB.start
